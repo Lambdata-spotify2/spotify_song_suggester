@@ -47,8 +47,7 @@ Then start the virtual environment using :
 
 ## Generating Predictions
 
-
-
+We used k-nearest neighbors (KNN) machine learning algorithm to find clusters of similar songs based on song of user's choice and its features provided by Spotify
 
 ## Running App from Heroku
   
