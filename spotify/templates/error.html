@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="error">
+    <div>
+        <h1>Sorry!</h1>
+    </div>
+    <div>
+        <p>Could not get recommendations for <b>Song: {{inputSongName}}</b> and <b>Artist: {{inputArtistName}}</b></p>
+    </div>
+    <div class="container" id=footer>
+        <form action="/">
+            <button type="submit">Go Back</button>
+        </form>
+    </div>
+</div>
+</div>
+{% endblock %}

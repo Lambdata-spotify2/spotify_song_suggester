@@ -40,7 +40,7 @@ def create_app():
             except:
                 message = "There was an error finding your song. Please go back and enter another song."
                 # return render_template("recommendations.html", message=message)
-                return "error" + sys.exc_info()[0]
+                return render_template("error.html", title="Error", inputSongName=song_name, inputArtistName=artist_name)
 
             audio_features_dict = retrieve_audio_features(song_id)
 
