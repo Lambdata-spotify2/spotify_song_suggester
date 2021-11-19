@@ -1,4 +1,4 @@
-# Spotify Song Suggestor
+# Spotify Song Suggester
 
 ## App Description
   This app loads Spotify song data into SQLite database, then model that data to predict the 10 most similar songs based on user input. It is a Flask app that is deployed via Heroku. It is formatted to output JSON data to its Heroku endpoints for further web processing.
